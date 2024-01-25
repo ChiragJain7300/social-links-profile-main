@@ -1,0 +1,79 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  border: 0;
+}
+.homePage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+}
+.cardCont {
+  width: 360px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+}
+.imgCont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.imgCont img {
+  width: 100px;
+  border-radius: 50%;
+}
+.nameHeading {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.addressHeading {
+  font-size: 1.2em;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.descText {
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+.linkCont a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 80%;
+}
+.last a {
+  margin-bottom: 0;
+}
+.linkCont a:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+  .cardCont {
+    width: 87%;
+  }
+}
